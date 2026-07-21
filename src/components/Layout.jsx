@@ -16,7 +16,7 @@ export default function Layout({ children, onLogout }) {
     <div className="flex h-screen overflow-hidden">
       <aside className="w-56 flex flex-col bg-sidebar border-r border-sidebar-border shrink-0">
         <div className="h-14 flex items-center gap-2.5 px-4 border-b border-sidebar-border">
-          <img src="/logo.svg" alt="ABC Bank" className="h-10" />
+          <img src="/logo.png" alt="ABC Bank" className="h-10" />
         </div>
 
         <nav className="flex-1 px-2 py-2 space-y-0.5">
