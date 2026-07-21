@@ -246,7 +246,7 @@ export default function MTRFDetail() {
               <div>
                 <h3 className="text-[12px] font-medium text-muted-foreground uppercase tracking-wider mb-3">Insurance Details</h3>
                 <div className="space-y-2.5">
-                  {[['Proposal', 'PRP-2024-0156'], ['Quote Ref', 'QT-2024-0298'], ['Loan Amount', '50,000.000 OMR'], ['Insurer', 'Sukoon Insurance'], ['Agent', 'Ahmed Al-Busaidi'], ['Referred On', '22 Jun 2026']].map(([k, v]) => (
+                  {[['Proposal', 'PRP-2024-0156'], ['Quote Ref', 'QT-2024-0298'], ['Loan Amount', '50,000.000 OMR'], ['Insurer', 'ABC Bank'], ['Agent', 'Ahmed Al-Busaidi'], ['Referred On', '22 Jun 2026']].map(([k, v]) => (
                     <div key={k} className="flex justify-between text-[13px] py-1 border-b border-border/50 last:border-0">
                       <span className="text-muted-foreground">{k}</span>
                       <span className="font-medium tabular-nums">{v}</span>
@@ -281,7 +281,7 @@ export default function MTRFDetail() {
             <div className="flex items-center gap-2">
               {status === 'sent' ? (
                 <div className="flex items-center gap-1.5 text-[13px] text-emerald-600">
-                  <Check size={14} /> Reports sent to Sukoon Insurance
+                  <Check size={14} /> Reports sent to ABC Bank
                 </div>
               ) : (
                 <Button

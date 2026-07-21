@@ -11,7 +11,7 @@ export default function Login({ onLogin }) {
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
       <div className="w-full max-w-sm">
         <div className="flex flex-col items-center mb-8">
-          <img src="/logo.png" alt="Sukoon Insurance" className="h-14 mb-3" />
+          <img src="/logo.svg" alt="ABC Bank" className="h-14 mb-3" />
           <p className="text-[13px] text-muted-foreground mt-2">Sign in to Medical Portal</p>
         </div>
 
